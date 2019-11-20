@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://goindownblues.github.io/"/>
+  <link href="https://goindownblues.github.io/"/>
   <updated>2019-11-20T11:33:47.063Z</updated>
-  <id>http://goindownblues.github.io/</id>
+  <id>https://goindownblues.github.io/</id>
   
   <author>
     <name>goindownblues</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Making message based game #0</title>
-    <link href="http://goindownblues.github.io/2019/11/20/Making-message-based-game-0/"/>
-    <id>http://goindownblues.github.io/2019/11/20/Making-message-based-game-0/</id>
+    <link href="https://goindownblues.github.io/2019/11/20/Making-message-based-game-0/"/>
+    <id>https://goindownblues.github.io/2019/11/20/Making-message-based-game-0/</id>
     <published>2019-11-20T11:33:23.000Z</published>
     <updated>2019-11-20T11:33:47.063Z</updated>
     
@@ -28,12 +28,12 @@
     </summary>
     
     
-      <category term="MessengersGame" scheme="http://goindownblues.github.io/categories/MessengersGame/"/>
+      <category term="MessengersGame" scheme="https://goindownblues.github.io/categories/MessengersGame/"/>
     
     
-      <category term="indieGame" scheme="http://goindownblues.github.io/tags/indieGame/"/>
+      <category term="indieGame" scheme="https://goindownblues.github.io/tags/indieGame/"/>
     
-      <category term="gameDev" scheme="http://goindownblues.github.io/tags/gameDev/"/>
+      <category term="gameDev" scheme="https://goindownblues.github.io/tags/gameDev/"/>
     
   </entry>
   
