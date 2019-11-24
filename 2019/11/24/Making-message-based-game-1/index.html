@@ -1,18 +1,17 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Making message based game #1 · gdblogs</title><meta name="description" content="Making message based game #1 - goindownblues"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="../../../../favicon.png"><link rel="stylesheet" href="../../../../css/hermes.css"><link rel="search" type="application/opensearchdescription+xml" href="https://goindownblues.github.io/atom.xml" title="gdblogs"><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="atom.xml" title="gdblogs" type="application/atom+xml">
 </head><body><div class="wrap"><header><a class="logo-link" href="../../../../index.html"><img src="../../../../favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link" href="../../../../index.html" target="_self">BLOG</a></li><li class="nav-list-item"><a class="nav-list-link" href="https://github.com/goindownblues" target="_blank">GITHUB</a></li><li class="nav-list-item"><a class="nav-list-link" href="../../../../archives/" target="_self">ARCHIVE</a></li><li class="nav-list-item"><a class="nav-list-link" href="../../../../atom.xml" target="_self">FEED</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Making message based game #1</h1><div class="post-info">Nov 24, 2019</div><div class="post-content"><h3 id="0"><a href="#0" class="headerlink" title="0"></a>0</h3><p> 개발을 위해서 프로토타입을 짠 후에 가장 먼저 진행한 작업은 github에 페이지를 위한 저장소를 개설한 것. 지금 이 포스트를 기록하고 있는 hexo를 세팅하는 데에 한 두 시간을 보냈다. 자료가 많아선지 예전에 jekyll을 설치할 때 보다 편리한 느낌이었다. 오히려 테마 설정에 까다로움이 있었는데, 릴리즈 일자가 조금 지난 테마의 경우 설치에 문제가 있는 경우가 있었다.</p>
+<p><img src="/imgs/post_01/img_0.png" alt="hexo 블로그 이미지"><span class="image-caption">hexo 블로그 이미지</span></p>
 <h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><p> (가칭) 메신저스 게임이라고 명명한 이번 프로젝트에 메시지와 선택 만으로는 단순한 구성이 될 것으로 느껴져 전체 화면 모드를 추가했지만, 코드 전체가 꼬여있는 느낌을 받고 있다. 전체적으로 정리할 수 있으면 좋겠지만, 여느 때처럼 아는 범위 내에서 빠르게 개발한다 라는 수준을 넘어선 작업을 하고 있어서인지 운용하는 것 자체가 쉽지 않아 고민이다.</p>
+<p><img src="/imgs/post_01/img_1.png" alt="전체화면의 이미지는 반투명으로 처리했다."><span class="image-caption">전체화면의 이미지는 반투명으로 처리했다.</span></p>
 <h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><p> 그런 와중에도 기본적인 방향성과 이야기의 뼈대를 잡기 위한 노력은 이어갔다. 결론부터 적자면 다음과 같다.</p>
 <ol>
-<li><p>모바일 기반에서는 React Native 앱으로 출시하는 것을 목표로 한다. </p>
-</li>
-<li><p>데스크탑 기반에서는 React로 최대한 유사한 UI를 구성한다.</p>
-</li>
-<li><p>모바일을 최우선하고, 데스크탑은 후순위로 둔다.</p>
-</li>
-<li><p>이야기 자체도 모바일 폰을 소재나 이야기 거리로 풀어간다.<br>툴을 만들면서 이야기를 짜는 것도 좋지만, 툴의 개발이 더딘 상황에선 이야기의 진행도 더디기 때문에, <a href="https://twinery.org/" target="_blank" rel="noopener">Twine</a> 이라는 인터렉티브 스토리텔링 툴을 써보기로 했다. 툴의 사용 방식은 한글로 문서화된 것이 적었지만 사용법 자체가 쉬운 편이었기 때문에 빠르게 작업할 수 있었다.</p>
-<p><a href="http://messengersgameforfb.web.app/MessengersGame_no1.html" target="_blank" rel="noopener">Twine 버전 메신저스 게임 챕터 1</a></p>
-</li>
+<li>모바일 기반에서는 React Native 앱으로 출시하는 것을 목표로 한다. </li>
+<li>데스크탑 기반에서는 React로 최대한 유사한 UI를 구성한다.</li>
+<li>모바일을 최우선하고, 데스크탑은 후순위로 둔다.</li>
+<li>이야기 자체도 모바일 폰을 소재나 이야기 거리로 풀어간다.<br>툴을 만들면서 이야기를 짜는 것도 좋지만, 툴의 개발이 더딘 상황에선 이야기의 진행도 더디기 때문에, <a href="https://twinery.org/" target="_blank" rel="noopener">Twine</a> 이라는 인터렉티브 스토리텔링 툴을 써보기로 했다. 툴의 사용 방식은 한글로 문서화된 것이 적었지만 사용법 자체가 쉬운 편이었기 때문에 빠르게 작업할 수 있었다.</li>
 </ol>
+<p><img src="/imgs/post_01/img_2.png" alt="Twine으로 작업해 본 메신저스 게임의 인트로 챕터 1 도입부"><span class="image-caption">Twine으로 작업해 본 메신저스 게임의 인트로 챕터 1 도입부</span></p>
+<p> <a href="http://messengersgameforfb.web.app/MessengersGame_no1.html" target="_blank" rel="noopener">Twine 버전 메신저스 게임 챕터 1</a></p>
 </div></article></div></main><footer><div class="paginator"><a class="next" href="../../20/Making-message-based-game-0/">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'goindownblues';
 var disqus_identifier = '2019/11/24/Making-message-based-game-1/';
 var disqus_title = 'Making message based game #1';
